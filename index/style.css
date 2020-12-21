@@ -1,19 +1,52 @@
 body {
   margin: 0;
-  background-color: pink;
+  background-image: url("../assets/bg_on.png");
+  background-size: cover;
 }
 
 a {
   text-decoration: none;
+  color: white;
 }
 
 .navbar {
   display: flex;
   justify-content: flex-end;
   padding: 10px;
-  background-color: white;
+  color: white;
 }
 
 .navbar-section {
   margin-right: 10px;
+}
+
+.footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.social {
+  display: flex;
+  margin: 15px;
+}
+
+.social-icon {
+  margin-left: 10px;
+  background-color: white;
+  width: 39px;
+  height: 39px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info {
+  display: flex;
+  margin-right: 30px;
 }
