@@ -3,6 +3,10 @@ body {
   background-color: pink;
 }
 
+a {
+  text-decoration: none;
+}
+
 .navbar {
   display: flex;
   justify-content: flex-end;
