@@ -12,7 +12,7 @@ a {
 .navbar {
   display: flex;
   justify-content: flex-end;
-  padding: 10px;
+  padding: 20px 10px;
   color: white;
 }
 
@@ -28,6 +28,7 @@ a {
   color: white;
   align-items: center;
   justify-content: space-between;
+  padding-bottom: 10px;
 }
 
 .social {
@@ -48,5 +49,10 @@ a {
 
 .info {
   display: flex;
-  margin-right: 30px;
+}
+
+.info-child {
+  margin-right: 15px;
+  border: 1px solid white;
+  padding: 10px;
 }
