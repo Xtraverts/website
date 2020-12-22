@@ -15,3 +15,5 @@ setTimeout(bgOff, 2000);
 setTimeout(bgOn, 2200);
 setTimeout(bgOff, 2500);
 setTimeout(bgOn, 2700);
+
+console.log('test')
