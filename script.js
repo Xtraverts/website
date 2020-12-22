@@ -1,4 +1,6 @@
 const bg = document.querySelector('body');
+bg.classList.add('bg_off');
+bg.classList.remove('bg_off');
 bg.classList.add('bg_on');
 
 function bgOn() {
@@ -7,8 +9,8 @@ function bgOn() {
 };
 
 function bgOff() {
-  bg.classList.add('bg_off');
   bg.classList.remove('bg_on');
+  bg.classList.add('bg_off');
 };
 
 setTimeout(bgOff, 2000);
