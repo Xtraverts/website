@@ -1,6 +1,5 @@
 body {
   margin: 0;
-  background-image: url("../assets/bg_on.png");
   background-size: cover;
 }
 
@@ -55,4 +54,12 @@ a {
   margin-right: 15px;
   border: 1px solid white;
   padding: 10px;
+}
+
+.bg_on {
+  background-image: url("../assets/bg_on.png");
+}
+
+.bg_off {
+  background-image: url("../assets/bg_off.png");
 }
