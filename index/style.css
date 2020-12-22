@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  background-color: black;
   background-size: cover;
 }
 
@@ -63,4 +64,23 @@ a {
 
 .bg_off {
   background-image: url("../assets/bg_off.png");
+}
+
+@media only screen and (max-width: 600px) {
+  .bg_on {
+    background-image: url("../assets/bg_on_small.png");
+  }
+
+  .bg_off {
+    background-image: url("../assets/bg_off_small.png");
+  }
+
+  .navbar {
+    font-size: 10px;
+  }
+
+  .info-child {
+    padding: 8px;
+    font-size: 5px;
+  }
 }
