@@ -68,15 +68,15 @@ a {
 
 @media only screen and (max-width: 600px) {
   .bg_on {
-    background-image: url("../assets/bg_on_small.png");
+    background-image: url("../assets/bg_on_long.png");
   }
 
   .bg_off {
-    background-image: url("../assets/bg_off_small.png");
+    background-image: url("../assets/bg_off_long.png");
   }
 
   .navbar {
-    font-size: 10px;
+    font-size: 14px;
   }
 
   .info-child {
