@@ -84,3 +84,13 @@ a {
     font-size: 5px;
   }
 }
+
+@media only screen and (max-width: 670px) and (min-width: 459px) {
+  .bg_on {
+    background-image: none;
+  }
+
+  .bg_off {
+    background-image: none;
+  }
+}
