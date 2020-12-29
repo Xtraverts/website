@@ -33,19 +33,24 @@ a {
 
 .social {
   display: flex;
-  margin: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
 }
 
 .social-icon {
   margin-left: 10px;
+  margin-right: 10px;
   background-color: white;
-  width: 39px;
-  height: 39px;
-  border-radius: 5px;
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
   display: flex;
   justify-content: center;
   align-items: center;
-  visibility: hidden;
+}
+
+.social-links {
+  
 }
 
 .info {
@@ -79,13 +84,17 @@ a {
     font-size: 14px;
   }
 
+  .info {
+    visibility: hidden;
+  }
+
   .info-child {
     padding: 8px;
     font-size: 5px;
   }
 }
 
-@media only screen and (max-width: 670px) and (min-width: 459px) {
+@media only screen and (max-width: 900px) and (min-width: 601px) {
   .bg_on {
     background-image: none;
   }
