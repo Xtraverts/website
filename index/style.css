@@ -18,6 +18,7 @@ a {
 
 .navbar-section {
   margin-right: 10px;
+  letter-spacing: 1px;
 }
 
 .footer {
@@ -65,6 +66,10 @@ a {
 
 .bg_off {
   background-image: url("../assets/bg_off.png");
+}
+
+.active {
+  text-decoration: underline;
 }
 
 @media only screen and (max-width: 600px) {
