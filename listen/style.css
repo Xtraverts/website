@@ -1,11 +1,11 @@
 body {
-  background-image: url("../assets/bg_on.png");
+  background-image: url("../assets/images/bg_on.png");
 }
 
 @media only screen and (max-width: 600px) {
 
   body {
-    background-image: url("../assets/bg_on_long.png");
+    background-image: url("../assets/images/bg_on_long.png");
   }
 
   .navbar {
