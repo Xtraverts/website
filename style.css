@@ -78,7 +78,7 @@ a {
   }
 
   .bg_off {
-    background-image: url(".src/assets/images/bg_off_long.png");
+    background-image: url("src/assets/images/bg_off_long.png");
   }
 
   .navbar {
