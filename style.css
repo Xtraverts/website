@@ -61,11 +61,11 @@ a {
 }
 
 .bg_on {
-  background-image: url("../assets/images/bg_on.png");
+  background-image: url("src/assets/images/bg_on.png");
 }
 
 .bg_off {
-  background-image: url("../assets/images/bg_off.png");
+  background-image: url("src/assets/images/bg_off.png");
 }
 
 .active {
@@ -74,11 +74,11 @@ a {
 
 @media only screen and (max-width: 600px) {
   .bg_on {
-    background-image: url("../assets/images/bg_on_long.png");
+    background-image: url("src/assets/images/bg_on_long.png");
   }
 
   .bg_off {
-    background-image: url("../assets/images/bg_off_long.png");
+    background-image: url(".src/assets/images/bg_off_long.png");
   }
 
   .navbar {
