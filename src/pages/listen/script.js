@@ -1,5 +1,5 @@
 const song_speed = '../../assets/audio/speed.mp3';
-const song_johhny = '../../assets/audio/johnny.mp3';
+const song_johnny = '../../assets/audio/johnny.mp3';
 const song_1984 = '../../assets/audio/1984.mp3';
 const song_plastic = '../../assets/audio/plastic.mp3';
 const song_blank_generation = '../../assets/audio/blank-generation.mp3';
@@ -37,7 +37,7 @@ player.addEventListener('click', (e) => {
 
     case 'song-2':
       deselectElement(player.childNodes, e);
-      handleAudio(song_johhny);
+      handleAudio(song_johnny);
       break;
 
     case 'song-3':
