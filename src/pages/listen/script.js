@@ -23,6 +23,7 @@ const handleAudio = (song) => {
     audio.pause();
   }
   audio = new Audio(song);
+  video.crossOrigin = 'anonymous';
   audio.load();
   audio.play();
 }
