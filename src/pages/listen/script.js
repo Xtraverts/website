@@ -1,5 +1,5 @@
 const song_speed = '../../assets/audio/speed.mp3';
-const song_johnny = '../../assets/audio/johnny.mp3';
+const song_johnny = '../../assets/audio/jhonny.wav';
 const song_1984 = '../../assets/audio/1984.mp3';
 const song_plastic = '../../assets/audio/plastic.mp3';
 const song_blank_generation = '../../assets/audio/blank-generation.mp3';
