@@ -1,7 +1,6 @@
 .bootstrap-carousel {
   color: white;
   width: 80%;
-  /* height: 50%; */
   margin: 0 auto;
 }
 
@@ -13,6 +12,13 @@
 .carousel-item img {
   height: 500px;
   object-fit: contain;
+}
+
+.navbar-custom {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 10px;
+  color: #dddddd;
 }
 
 @media only screen and (max-width: 600px) {

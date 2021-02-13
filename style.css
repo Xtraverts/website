@@ -6,6 +6,8 @@ body {
   margin: 0;
   background-color: black;
   background-size: cover;
+  font-family: sans-serif;
+  line-height: 1;
 }
 
 a {
@@ -14,6 +16,13 @@ a {
 }
 
 .navbar {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 10px;
+  color: #dddddd;
+}
+
+.navbar-custom {
   display: flex;
   justify-content: flex-end;
   padding: 20px 10px;
