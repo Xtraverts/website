@@ -1,0 +1,23 @@
+.bootstrap-carousel {
+  color: white;
+  width: 80%;
+  /* height: 50%; */
+  margin: 0 auto;
+}
+
+.carousel-inner {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.carousel-item img {
+  height: 500px;
+  object-fit: contain;
+}
+
+@media only screen and (max-width: 600px) {
+  .carousel-inner {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
