@@ -13,6 +13,13 @@ body {
 a {
   text-decoration: none;
   color: #dddddd;
+  transition: font-size 0.5s;
+}
+
+a:hover {
+  color: #ffffff;
+  /* font-size: 17px; */
+  /* transition: color 1s; */
 }
 
 .navbar {
