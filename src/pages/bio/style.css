@@ -6,5 +6,9 @@
 .bio {
   color: #dddddd;
   line-height: 40px;
-	font-size: 22px;
+  font-size: 22px;
+}
+
+.navbar {
+  background-color: #101010;
 }

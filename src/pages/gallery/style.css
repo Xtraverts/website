@@ -1,7 +1,7 @@
 .bootstrap-carousel {
   color: white;
   width: 80%;
-  margin: 0 auto 50px auto;
+  margin: 90px auto 50px auto;
 }
 
 .carousel-inner {
@@ -12,6 +12,10 @@
 .carousel-item img {
   height: 500px;
   object-fit: contain;
+}
+
+.navbar {
+  background-color: #101010;
 }
 
 .navbar-custom {

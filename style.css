@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  background-color: #111111;
+  background-color: #101010;
   background-size: cover;
   font-family: sans-serif;
   line-height: 1;
@@ -24,6 +24,14 @@ a:hover {
 
 .navbar {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #111F22;
+  padding: 0px;
+}
+
+.navbar-elements {
+  display: flex;
   justify-content: flex-end;
   padding: 20px 10px;
   color: #dddddd;
@@ -39,6 +47,11 @@ a:hover {
 .navbar-section {
   margin-right: 10px;
   letter-spacing: 1px;
+}
+
+.logo {
+  margin: 20px;
+  border-radius: 50%;
 }
 
 .footer {
